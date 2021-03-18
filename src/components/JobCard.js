@@ -5,13 +5,13 @@ import {JobCardStyle} from '../styles';
 const JobCard = props => {
   return (
     <View style={JobCardStyle.container}>
-      <TouchableOpacity>
+      <TouchableOpacity onPress={props.onChoose}>
         <View style={JobCardStyle.textContainer}>
           <Text style={JobCardStyle.text}>{props.job.title}</Text>
         </View>
         <View style={JobCardStyle.textContainer}>
           <Text>
-            {props.job.type}/ {props.job.location}
+            {props.job.type} / {props.job.location}
           </Text>
         </View>
       </TouchableOpacity>

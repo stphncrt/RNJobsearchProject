@@ -4,7 +4,7 @@ import {View, Text} from 'react-native';
 const SavedJobs = props => {
   return (
     <View>
-      <Text></Text>
+      <Text>Selected Job</Text>
     </View>
   );
 };

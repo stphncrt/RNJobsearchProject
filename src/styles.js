@@ -39,3 +39,11 @@ export const JobCardStyle = StyleSheet.create({
     fontWeight: 'bold',
   },
 });
+
+export const JobModal = StyleSheet.create({
+  modalBackground: {
+    backgroundColor: 'white',
+    padding: 5,
+    borderRadius: 10,
+  },
+});

@@ -43,7 +43,12 @@ export const JobCardStyle = StyleSheet.create({
 export const JobModal = StyleSheet.create({
   modalBackground: {
     backgroundColor: 'white',
-    padding: 5,
+    padding: 10,
     borderRadius: 10,
+    borderBottomWidth: 1,
+  },
+  jobtitle: {
+    fontSize: 20,
+    fontWeight: 'bold',
   },
 });
